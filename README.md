@@ -1,3 +1,3 @@
 ### Data Science Course
 
-This repo contains the material for the Data Science course.
+This repo contains the materials for the Data Science course. It is maintained by Miguel-Angel Canela.
