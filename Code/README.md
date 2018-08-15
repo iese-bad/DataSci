@@ -12,4 +12,4 @@ The spam filter: `spam.R`.
 
 Market basket analysis at the grocery outlet: `groceries.R`.
 
-Skills requested in Google job posts: `job_skills_google.R.
+Skills requested in Google job posts: `job_skills_google.R`.
