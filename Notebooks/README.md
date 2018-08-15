@@ -12,4 +12,4 @@ The spam filter: `spam.csv`.
 
 Market basket analysis at the grocery outlet: `groceries.ipynb`.
 
-Skills requested in Google job posts: `job_skills_google.ipnb.
+Skills requested in Google job posts: `skills_google.ipnb`.
