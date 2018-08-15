@@ -10,4 +10,4 @@ The spam filter: `spam.csv`.
 
 Market basket analysis at the grocery outlet: `groceries.csv`.
 
-Skills requested in Google job posts: `job_skills_google.csv`,
+Skills requested in Google job posts: `skills_google.csv`,
