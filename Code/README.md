@@ -8,8 +8,6 @@ The churn model: `churn.R`.
 
 The spam filter: `spam.R`.
 
-The spam filter: `spam.R`.
-
 Market basket analysis at the grocery outlet: `groceries.R`.
 
 Skills requested in Google job posts: `skills_google.R`.
