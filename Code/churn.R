@@ -22,9 +22,9 @@ hist(score[churn[, 'churn']==0], breaks=20,
 # Confusion matrix (cutoff 0.5) #
 conf1 = table(score > 0.5, churn[, 'churn'] == 1)
 conf1
-tp1 = conf1["TRUE", "TRUE"]/sum(conf1[, "TRUE"])
+tp1 = conf1['TRUE', 'TRUE']/sum(conf1[, 'TRUE'])
 round(tp1, 3)
-fp1 = conf1["TRUE", "FALSE"]/sum(conf1[, "FALSE"])
+fp1 = conf1['TRUE', 'FALSE']/sum(conf1[, 'FALSE'])
 round(fp1, 3)
 
 # Confusion matrix (cutoff 0.2) #
