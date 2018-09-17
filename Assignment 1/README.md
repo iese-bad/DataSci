@@ -6,7 +6,7 @@ The objective of this assignment is to get practice with some exploratory steps 
 
 #### Tasks
 
-1. Some rows in the data set, corresponding to on-trading days, contains 'null' strings. Drop these rows.
+1. Some rows in the data set, corresponding to non-trading days, contains 'null' strings. Drop these rows.
 
 2. Produce a statistical summary for the adjusted closing prices.
 
