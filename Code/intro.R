@@ -10,7 +10,7 @@ x = 1:10
 x
 
 # Character vector #
-y = c("Messi", "Neymar", "Cristiano")
+y = c('Messi', 'Neymar', 'Cristiano')
 y
 
 # Logical vector #
@@ -26,12 +26,12 @@ is.vector(a)
 length(a)
 
 # List #
-L = list(1:10, c("Messi", "Neymar", "Cristiano"), TRUE)
+L = list(1:10, c('Messi', 'Neymar', 'Cristiano'), TRUE)
 L
 L[[1]]
 
 # List with names #
-L = list(L1=1:10, L2=c("Messi", "Neymar", "Cristiano"), L3=TRUE)
+L = list(L1=1:10, L2=c('Messi', 'Neymar', 'Cristiano'), L3=TRUE)
 L['L2']
 L$L2
 
