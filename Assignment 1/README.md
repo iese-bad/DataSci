@@ -6,13 +6,13 @@ The objective of this assignment is to get practice with some exploratory steps 
 
 #### Tasks
 
-1. Some rows in the data set, corresponding to non-trading days, contains 'null' strings. Drop these rows.
+1. Some rows in the data set, corresponding to non-trading days, contain "null" strings. Drop these rows.
 
 2. Produce a statistical summary for the adjusted closing prices.
 
 3. Calculate the daily returns and the logarithmic returns for the adjusted closing prices and compare them.
 
-4. Plot a histogram of the returns. Can a normal distribution be used as a model here? Check this counting the number of instances captured in a 2-sigma interval (you should capture 95%, in an ideal world).
+4. Plot a histogram of the returns. Can a normal distribution be used as a model here? Check this by counting the number of instances captured in a 2-sigma interval (you should capture 95%, in an ideal world).
 
 5. Produce a line plot for the returns, with the syntax `plot(returns, type='l')`.  
 
