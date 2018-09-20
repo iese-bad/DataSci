@@ -1,4 +1,4 @@
-### Assignment 1
+n### Assignment 1
 
 #### Introduction
 
@@ -22,4 +22,4 @@ Submit the code used to develop your predictive model, with comments and a few c
 
 #### Deadline
 
-September 26 (Tuesday), 24:00.
+September 26 (Wednesday), 24:00.
