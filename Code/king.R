@@ -20,7 +20,7 @@ pred_error = king[, 'price'] - pred_price
 
 # Graphics #
 hist(king[, 'price'], main='Figure 1. Actual price', xlab='Actual price')
-hist(king[, 'pred_error'], main='Figure 2. Prediction error', xlab='Residual')
+hist(pred_error, main='Figure 2. Prediction error', xlab='Residual')
 plot(king[, 'price'] ~ pred_price, pch='.',
   main='Figure 3. Actual price vs predicted price',
   xlab='Predicted price', ylab='Actual price')
