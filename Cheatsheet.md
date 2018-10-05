@@ -50,7 +50,7 @@
 
 #### Functions
 
-- `function`. Defines a function. The syntax is `fname <- function(x) expression`. The expression involves the argument `x` and objects already defined. If the definition involves several steps, the expression is deployed in several lines and these lines are enclosed by curly braces (`{}`). In that case, it is better to include within the brackets a last line in which it is specified, with `return(value)`, what the function returns. Functions can have more than one argument, as in `f <- function(x, y) x*y/(x^2+y^2)`.
+- `function`. Defines a function. The syntax is `fname <- function(x) expression`. The expression involves the argument `x` and objects already defined. If the definition involves several steps, the expression is deployed in several lines and these lines are enclosed by curly braces (`{}`). In that case, it is better to include within the brackets a last line in which it is specified, with `return(value)`, what the function returns. Functions can have more than one argument, as in `f = function(x, y) x*y/(x^2+y^2)`.
 
 - `Vectorize`. A *vectorized* function is one that, when applied to a vector, works on every term of the vector separately and returns a vector of the same length. Many native functions of `R`, like `exp` or `sqrt` and operators like `+` or `*` are vectorized. User-defined functions can be vectorized with the function `Vectorize`.
 
