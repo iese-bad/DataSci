@@ -14,7 +14,6 @@ conf1 = table(score > 0.5, churn[, 'churn'] == 1)
 conf2 = table(score > 0.2, churn[, 'churn'] == 1)
 
 # Benefit analysis #
-B = matrix(c(0, 0, -0.2, 0.8), nrow=2, byrow=TRUE)
 benefit1 = 0.8 * conf1['TRUE', 'TRUE'] - 0.2 * conf1['TRUE', 'FALSE']
 benefit1
 benefit2 = 0.8 * conf2['TRUE', 'TRUE'] - 0.2 * conf2['TRUE', 'FALSE']
